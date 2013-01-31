@@ -1,0 +1,72 @@
+html {
+  font-family: 'Menlo';
+  font-size: 14px;
+  line-height:18px;
+  background-color: #fdf6e3; /* base3 */
+  color: #657b83;            /* base00 */
+  padding-left:5%;
+  padding-right:5%;
+}
+body {}
+
+.url { color: #d33682; text-decoration: none; border-bottom: 1px dashed #d33682;} /* magenta */
+.address {}
+.highlight {
+  /* font-size: 160%; */
+  font-weight: bold;
+  /* padding: 0 3px; */
+  color: #dc322f;   /* red */
+  padding:3px;
+  border: 1px dashed #dc322f;
+  margin:0 2px 0 0;
+}
+
+.line { width:80%; float:right; margin: 7px 0 0 0;}
+.line[alternate=even] {}
+.line[alternate=odd] {} 
+.line[highlight=true] {}
+
+.time { color: #93a1a1; display:none; }   /* base1 */
+.place { color: #93a1a1; display:none; }  /* base1 */
+.sender{ margin-top:14px; display:inline-block; width:27%; margin-left:-30%; text-align:right; margin-right:3%;}
+.sender[type=normal] { color: #268bd2;  } /* blue */
+.sender[type=myself] { color: #93a1a1;} /* base1 */
+.message{}
+.message[type=privmsg] {}
+.message[type=notice] { color: #859900; margin}   /* green */
+.message[type=action] { color: #b58900; margin-left: 2%;}    /* yellow */
+div[type=action]{
+  font-size: .9em;
+}
+div[type=action] .sender{ 
+  padding-left: 3%;
+  border-left: 1px dashed #b58900;  
+  color: #b58900; 
+  display:inline-block; 
+  width:auto; 
+  margin-left:-3%;
+  text-align:left; 
+  margin-right:0;
+}
+.message[type=system], .message[type=join], .message[type=part], .message[type=kick],
+.message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
+.message[type=invite], .message[type=wallops] {
+  color: #93a1a1; /* base1 */
+  float: right;
+  font-size: 1em;
+  border-right: 1px dashed #93a1a1;
+  padding-right: 3%;
+  margin-right:-3%;
+}
+div[type=topic]{ margin-top:14px;}
+.message[type=topic] {
+  color: #2aa198; font-size: .9em; border-left: 1px dashed #2aa198; padding-left:3%; margin-left:-3%; margin-top:14px;
+}
+
+.message[type=reply] { color: #2aa198; font-size: .9em; border-left: 1px dashed #2aa198; padding-left:3%; margin-left:-3%; }   /* cyan */
+
+.message[type=error], .message[type=error_reply] { color: #cb4b16; } /* orange */
+.message[type=dcc_send_send] { color: #cb4b16; }                     /* orange */
+.message[type=dcc_send_receive] { color: #cb4b16; }                  /* orange */
+.message[type=debug_send] { color: #cb4b16; }                        /* orange */
+.message[type=debug_receive] { color: #cb4b16; }                     /* orange */

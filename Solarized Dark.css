@@ -1,0 +1,53 @@
+html {
+  font-family: 'Menlo';
+  font-size: 14px;
+  background-color: #002b36; /* base03 */
+  color: #839496;            /* base0 */
+}
+body {}
+
+.url { color: #d33682; } /* magenta */
+.address {}
+.highlight {
+  /* font-size: 160%; */
+  font-weight: bold;
+  /* padding: 0 3px; */
+  color: #dc322f;   /* red */
+}
+
+.line {}
+.line[alternate=even] {}
+.line[alternate=odd] {} 
+.line[highlight=true] {}
+
+.time { color: #586e75; }   /* base01 */
+.place { color: #586e75; }  /* base01 */
+
+.sender[type=normal] { color: #268bd2; } /* blue */
+.sender[type=myself] { color: #586e75; } /* base01 */
+
+.message[type=privmsg] {}
+.message[type=notice] { color: #859900; }   /* green */
+.message[type=action] { color: #93a1a1;}    /* base1 */
+
+.message[type=system], .message[type=join], .message[type=part], .message[type=kick],
+.message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
+.message[type=invite], .message[type=wallops] {
+  color: #586e75; /* base01 */
+  float: right;
+  font-size: 90%;
+}
+
+.message[type=topic] {
+  color: #6c71c4; /* violet */
+  float: right;
+  font-size: 90%;
+}
+
+.message[type=reply] { color: #2aa198; }   /* cyan */
+
+.message[type=error], .message[type=error_reply] { color: #cb4b16; } /* orange */
+.message[type=dcc_send_send] { color: #cb4b16; }                     /* orange */
+.message[type=dcc_send_receive] { color: #cb4b16; }                  /* orange */
+.message[type=debug_send] { color: #cb4b16; }                        /* orange */
+.message[type=debug_receive] { color: #cb4b16; }                     /* orange */
