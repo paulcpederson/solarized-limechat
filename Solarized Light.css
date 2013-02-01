@@ -69,5 +69,5 @@ div[type=topic]{ margin-top:1em;}
 .message[type=debug_send] { color: #cb4b16; }                        /* orange */
 .message[type=debug_receive] { color: #cb4b16; }                     /* orange */
 @media screen and (max-width:720px){
-  body{font-size:12px;line-height:1.5em;}
+  body{font-size:12px;line-height:1.6em;}
 }
