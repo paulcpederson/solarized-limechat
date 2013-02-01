@@ -1,4 +1,4 @@
-# Solarized Light for LimeChat
+# Solarized for LimeChat
 
 LimeChat is an IRC client for OS X. You can get it at http://limechat.net/mac/
 
