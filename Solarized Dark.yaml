@@ -1,5 +1,21 @@
 # All colors must be in the form of '#rrggbb' or '#rgb'.
 # You cannot use color names.
+# $base03:    #002b36;
+# $base02:    #073642;
+# $base01:    #586e75;
+# $base00:    #657b83;
+# $base0:     #839496;
+# $base1:     #93a1a1;
+# $base2:     #eee8d5;
+# $base3:     #fdf6e3;
+# $yellow:    #b58900;
+# $orange:    #cb4b16;
+# $red:       #dc322f;
+# $magenta:   #d33682;
+# $violet:    #6c71c4;
+# $blue:      #268bd2;
+# $cyan:      #2aa198;
+# $green:     #859900;
 
 log-view:
   nickname-format: '%n: '
@@ -7,44 +23,44 @@ log-view:
 input-text:
   font-family: 'Menlo'
   font-size: 13.0
-  background-color: '#073642' # base02
+  background-color: '#002b36' # base02
   color: '#93a1a1'            # base1
 member-list:
   font-family: 'Menlo'
-  font-size: 12.0
-  color: '#93a1a1' # base1 
-  background-color: '#073642' # base02
+  font-size: 13.0
+  color: '#93a1a1' # base1
+  background-color: '#002b36' # base02
   operator:
-    color: '#b58900' # yellow
+    color: '#268bd2' # yellow
   selected:
-    color: '#d33682'               # magenta
+    color: '#fdf6e3'               # magenta
     background:
-      top-line-color: '#002b36'    # base00
-      bottom-line-color: '#002b36' # base00
-      top-color: '#002b36'         # base00
-      bottom-color: '#002b36'      # base00
+      top-line-color: '#268bd2'    # base00
+      bottom-line-color: '#268bd2' # base00
+      top-color: '#268bd2'         # base00
+      bottom-color: '#268bd2'      # base00
 server-tree:
   font-family: 'Menlo'
-  font-size: 12.0
-  background-color: '#073642' # base02
+  font-size: 13.0
+  background-color: '#002b36' # base02
   highlight:
     color: '#dc322f' # red
   newtalk:
-    color: '#2aa198' # cyan
+    color: '#d33682' # cyan
   unread:
     color: '#859900' # green
   normal:
     active:
       color: '#93a1a1' # base1
     inactive:
-      color: '#93a1a1' # base1
+      color: '#586e75' # base1
   selected:
     active:
-      color: '#6c71c4' # violet
+      color: '#fdf6e3'               # magenta
     inactive:
       color: '#93a1a1' # base3
     background:
-      top-line-color: '#002b36'    # base00
-      bottom-line-color: '#002b36' # base00
-      top-color: '#002b36'         # base00
-      bottom-color: '#002b36'      # base00
+      top-line-color: '#268bd2'    # base00
+      bottom-line-color: '#268bd2' # base00
+      top-color: '#268bd2'         # base00
+      bottom-color: '#268bd2'      # base00
