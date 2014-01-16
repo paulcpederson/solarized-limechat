@@ -5,12 +5,12 @@ html {
   padding-left:5%;
   padding-right:5%;
 }
-body { 
-  margin: 0 auto; 
-  width: 100%; 
+body {
+  margin: 0 auto;
+  width: 100%;
   max-width:960px;
-  font-size: 14px;
-  line-height:1.25em;
+  font-size: 12px;
+  line-height: 1.25em;
 }
 .url { color: #d33682; text-decoration: none; border-bottom: 1px dashed #d33682;} /* magenta */
 .address {}
@@ -23,11 +23,11 @@ body {
 }
 .line { width:80%; float:right; margin: .5em 0 0 0;}
 .line[alternate=even] {}
-.line[alternate=odd] {} 
+.line[alternate=odd] {}
 .line[highlight=true] {}
 .time { color: #93a1a1; display:none; }   /* base1 */
 .place { color: #93a1a1; display:none; }  /* base1 */
-.sender{ margin-top:1em;
+.sender{ margin-top: .5em;
    display:inline-block;
    width:27%;
    margin-left:-30%;
@@ -39,14 +39,14 @@ body {
 .message[type=notice] { color: #859900; }   /* green */
 .message[type=action] { color: #b58900; margin-left: 2%; }    /* yellow */
 div[type=action]{ font-size: .9em; }
-div[type=action] .sender{ 
+div[type=action] .sender{
   padding-left: 3%;
-  border-left: 1px dashed #b58900;  
-  color: #b58900; 
-  display:inline-block; 
-  width:auto; 
+  border-left: 1px dashed #b58900;
+  color: #b58900;
+  display:inline-block;
+  width:auto;
   margin-left:-3%;
-  text-align:left; 
+  text-align:left;
   margin-right:0;
 }
 .message[type=system], .message[type=join], .message[type=part], .message[type=kick],
