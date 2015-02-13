@@ -20,7 +20,7 @@ Both of these themes have one breakpoint at 720px. Smaller than this, the font-s
 Installing Limechat themes is easy, just:
 
 ```sh
-# Clone the github repo	to your Limechat Themes folder
+# Clone the github repo to your Limechat Themes folder
 $ cd ~/Library/Application\ Support/LimeChat/Themes/
 $ git clone https://github.com/paulcpederson/solarized-limechat.git
 
