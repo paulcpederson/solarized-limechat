@@ -19,15 +19,14 @@ Both of these themes have one breakpoint at 720px. Smaller than this, the font-s
 ## Installing 
 Installing Limechat themes is easy, just:
 
-```
-# Clone the github repo	
-git clone https://github.com/paulcpederson/solarized-limechat.git /tmp/solarized-limechat
+```sh
+# Clone the github repo to your Limechat Themes folder
+$ cd ~/Library/Application\ Support/LimeChat/Themes/
+$ git clone https://github.com/paulcpederson/solarized-limechat.git
 
-# Copy the files over to your Limechat Themes folder
-mv /tmp/solarized-limechat/*  ~/Library/Application\ Support/LimeChat/Themes/
-
-# Remove the Temporary folder
-rm -rf /tmp/solarized-limechat
+# Symlink the appropriate theme files to the Limechat Themes folder
+$ ln -s solarized-limechat/Solarized\ Dark.* .;
+$ ln -s solarized-limechat/Solarized\ Light.* .
 ```
 
 Then just choose "Solarized Light" or "Solarized Dark" inside limechat's preferences.
